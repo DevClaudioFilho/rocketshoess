@@ -1,5 +1,5 @@
 ﻿<h1 align="center">
-  <img alt="rocketshoess" title="rocketshoess" width="200px"  src="https://github.com/DevClaudioFilho/rocketshoess/blob/main/_readmeImg/logo.PNG?raw=true" />
+  <img alt="rocketshoess" title="rocketshoess" width="200px"  src="https://github.com/DevClaudioFilho/rocketshoess/blob/master/_readmeImg/logo.png" />
 </h1>
 
 <h3 align="center">
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img alt="rocketshoess" src="https://github.com/DevClaudioFilho/rocketshoess/blob/main/_readmeImg/preview.PNG?raw=true" width="100%">
+  <img alt="rocketshoess" src="https://github.com/DevClaudioFilho/rocketshoess/blob/master/_readmeImg/preview.png" width="100%">
 </p>
 
 ## 👩‍💻 About the project
