@@ -1,7 +1,7 @@
 import { createContext, ReactNode, useContext, useState } from "react";
 import { toast } from "react-toastify";
 import { api } from "../services/api";
-import { Product, Stock } from "../types";
+import { Product } from "../types";
 
 interface CartProviderProps {
   children: ReactNode;
@@ -47,7 +47,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
         findProduct.amount++;
 
         const newArray = cart.map((product) => {
-          if (product.id == productId) {
+          if (product.id === productId) {
             return findProduct;
           }
           return product;
@@ -132,7 +132,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
       findProduct.amount = amount;
 
       const newArray = cart.map((product) => {
-        if (product.id == productId) {
+        if (product.id === productId) {
           return findProduct;
         }
         return product;
